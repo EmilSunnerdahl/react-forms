@@ -70,7 +70,7 @@ body {
   outline: none;
 }
 
-.error-message {
+.feedback-message {
   display: none;
   padding: .2rem;
 }

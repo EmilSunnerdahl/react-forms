@@ -21,7 +21,7 @@ const Form: React.FC = () => {
 
     if (!user.fName || !user.lName || !user.email || !user.password) {
       setFeedbackMessage({
-        message: "Please fill out the before before submitting.",
+        message: "Please fill out the form before before submitting.",
         color: "red",
       });
       return;
@@ -96,7 +96,7 @@ const Form: React.FC = () => {
       {feedbackMessage.message ? (
         <p
           style={{ display: "block", color: feedbackMessage.color }}
-          className="error-message"
+          className="feedback-message"
         >
           {feedbackMessage.message}
         </p>
