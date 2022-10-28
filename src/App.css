@@ -1,0 +1,76 @@
+:root {
+  --grey: rgb(70, 70, 70);
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background: black;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+.App {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.container {
+  background: lightblue;
+  border-radius: 30px;
+  padding: 5rem 2rem;
+  margin-inline: auto;
+  margin-top: 10rem;
+}
+
+.submit-form {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.submit-btn {
+  padding: .5rem;
+  border: none;
+  border-radius: 10px;
+  font-size: 1.5rem;
+  color: rgb(256, 256, 256);
+  background: var(--grey);
+}
+
+.submit-btn:hover {
+  background: rgb(60, 60, 60);
+}
+
+.submit-btn:focus {
+  background: rgb(40, 40, 40);
+}
+
+.submit-form > * {
+  margin: .3rem;
+}
+
+.input-div {
+  width: 100%;
+}
+
+.input {
+  background-color: rgb(242, 242, 242);
+  border-radius: 5px;
+  padding: .5rem;
+  width: 100%;
+}
+
+.input:focus {
+  outline: none;
+}
+
+.error-message {
+  display: none;
+  padding: .2rem;
+}

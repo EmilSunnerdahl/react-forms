@@ -1,0 +1,11 @@
+{
+  "users": [
+    {
+      "id": 1,
+      "fName": "Emil",
+      "lName": "Sunnerdahl",
+      "email": "emilsunnerdahl@gmail.com",
+      "password": "lösen123"
+    }
+  ]
+}
